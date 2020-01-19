@@ -1,54 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>SUST</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    #nav-bar {
-        width: 100%;
-        height: 70px;
-        border-style: solid;
-        border-color: white;
-        background-color: rgb(51, 99, 62);
-        color: white;
-        text-align: center;
-    }
-  </style>
+    <title>SUST</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        #nav-bar {
+            width: 100%;
+            height: 70px;
+            border-style: solid;
+            border-color: white;
+            background-color: rgb(51, 99, 62);
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
     <div id="nav-bar">
         <h2>SUST Text to Speech Assesment</h2>
     </div>
     <div class="container">
-    	<div class="row">
-    		<div class="col-md-3"></div>
-    		<div class="col-md-6">
-    			<br>
-    			<br>
-    			<h4>চতুর্থ শিল্পবিপ্লব বিশ্বের মানুষের জীবনমান উন্নয়নে কী প্রভাব ফেলবে, সেটি নিয়ে দুই ধরনের মত পাওয়া যাচ্ছে</h4>
-    			<p>
-    				<strong>System 01</strong>
-    				<br>
-    				<audio controls><source src="MOS/tacotron_wavs/Sen1.wav" type="audio/wav"></audio>
-    			</p>
-    			<p>
-    				<strong>System 02</strong>
-    				<br>
-    				<audio controls><source src="MOS/ossian_wavs/Sen1.wav" type="audio/wav"></audio>
-    			</p>
-    			<p>
-    				<strong>System 03</strong>
-    				<br>
-    				<audio controls><source src="MOS/google_wavs/Sen1.wav" type="audio/wav"></audio>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <br>
+                <br>
+                <div>
+                    <h4>চতুর্থ শিল্পবিপ্লব বিশ্বের মানুষের জীবনমান উন্নয়নে কী প্রভাব ফেলবে, সেটি নিয়ে দুই ধরনের মত পাওয়া যাচ্ছে</h4>
+                    <p>
+                        <strong>System A</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/tacotron_wavs/Sen1.wav" type="audio/wav">
+                        </audio>
+                    </p>
+                    <p>
+                        <strong>System B</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/ossian_wavs/Sen1.wav" type="audio/wav">
+                        </audio>
+                    </p>
+                    <p>
+                        <strong>System C</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/google_wavs/Sen1.wav" type="audio/wav">
+                        </audio>
 
-    			</p>
-    		</div>
+                    </p>
+                </div>
+                <div>
+                    <h4>অধিকাংশ ফেলুদা কাহিনী প্রথম পূজাবার্ষিকী দেশ পত্রিকায় প্রকাশিত হয়েছিলো</h4>
+                    <p>
+                        <strong>System A</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/tacotron_wavs/Sen2.wav" type="audio/wav">
+                        </audio>
+                    </p>
+                    <p>
+                        <strong>System B</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/ossian_wavs/Sen2.wav" type="audio/wav">
+                        </audio>
+                    </p>
+                    <p>
+                        <strong>System C</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/google_wavs/Sen2.wav" type="audio/wav">
+                        </audio>
 
-    </div>
+                    </p>
+
+                </div>
+                <div>
+                    <h4>কিন্তু এ ব্যাটসম্যানদের ভিড়ে কায়েস ব্রো কোথায়</h4>
+                    <p>
+                        <strong>System A</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/tacotron_wavs/Sen3.wav" type="audio/wav">
+                        </audio>
+                    </p>
+                    <p>
+                        <strong>System B</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/ossian_wavs/Sen3.wav" type="audio/wav">
+                        </audio>
+                    </p>
+                    <p>
+                        <strong>System C</strong>
+                        <br>
+                        <audio controls>
+                            <source src="MOS/google_wavs/Sen3.wav" type="audio/wav">
+                        </audio>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
 </body>
-</html>
 
+</html>
